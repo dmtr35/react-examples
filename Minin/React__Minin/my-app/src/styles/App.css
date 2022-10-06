@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+/* ============================================ */
+.wrapper {
+    padding-top: 5rem;
+    margin: 0  auto;
+    width: 600px;
+}
+.rm {
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+}
+
+.li_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+}
+.input_list {
+    margin-right: 1rem;
+}
+
+.lu_list {
+    list-style: 'none';
+    margin: 0;
+    padding: 0;
+}
+
+.done {
+    text-decoration: line-through;
+}
+/* ===  Loader  =========================== */
+.loader {
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.lds-dual-ring {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+      }
+      .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid blue;
+        border-color: blue transparent blue transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+      }
+      @keyframes lds-dual-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+/* ========================================= */
+/* modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.modal-body {
+    padding: 2rem;
+    width: 400px;
+    border-radius: 5px;
+    background: #fff;
+    height: 200px;
+}
+
+/* ============================================== */
+
+
+
+
+
+
+
+
